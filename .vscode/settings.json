@@ -58,5 +58,5 @@
       "javascript": "javascriptreact",
       "typescript": "typescriptreact"
     },
-    "material-icon-theme.hidesExplorerArrows": true
+    "material-icon-theme.hidesExplorerArrows": false
   }
