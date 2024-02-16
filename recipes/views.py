@@ -54,7 +54,7 @@ def search(request):
 
     if not search_term:
         raise Http404()
-    
+
     recipes = Recipe.objects.filter(
         Q(
             Q(title__icontains=search_term) |
